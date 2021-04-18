@@ -1,0 +1,172 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5 {
+  color: #1597bb;
+  font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  color: #fff;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.4rem;
+  font-family: "Montserrat-light-300";
+}
+
+#title {
+  background-color: #536162;
+  color: #fff;
+  padding: 5% 10%;
+}
+
+/* NAVIGATION BAR */
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #536162;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  transform: rotate(10deg);
+  height: 150%;
+  width: 100%;
+}
+
+.row {
+  padding: 100px 0;
+  margin: 0;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+  position: relative;
+  z-index: 1;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  padding: 6% 15%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.fontawesome {
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+}
+
+.fontawesome:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #536162;
+  text-align: center;
+}
+
+.testimonial-img {
+  border-radius: 10%;
+  width: 50%;
+}
+
+.carousel-item {
+  padding: 7% 15% 0 15%;
+}
+
+.karusel-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 30px;
+}
+
+/* PRESS */
+#press {
+  background-color: #536162;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 300px;
+  height: 100px;
+  margin: 40px 100px 10px 100px;
+  border-radius: 50%;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+  padding-bottom: 0;
+}
+
+#cta {
+  background-color: #536162;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.footericon {
+  margin: 2% 1%;
+}
+
+@media (max-width:992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    height: 120%;
+    width: 90%;
+    transform: rotate(0);
+  }
+}
